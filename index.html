@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello World with jQuery</title>
+    <!-- Include jQuery via CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div id="output">
+        <!-- The "Hello World" message will be inserted here -->
+    </div>
+
+    <script>
+        // Wait for the document to be ready
+        $(document).ready(function () {
+            // Use jQuery to set the text and color
+            $("#output").text("Hello World").css("color", "blue");
+        });
+    </script>
+</body>
+</html>
